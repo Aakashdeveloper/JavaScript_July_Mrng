@@ -7,6 +7,7 @@ https://github.com/
 > github
 > localstorage
 > sessionStorage
+////////////////////////////////////////
 > cookies
 > String literals
 > if else
@@ -49,3 +50,27 @@ https://github.com/
 > Weather application
 > ajax
 > Baisc Jquery
+
+
+
+
+//////////////////
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/test6.git
+git push -u origin master
+
+
+////Next Time////
+git add .
+git commit -m "first commit"
+git push
+
+
+///////////
+git checkout -b 
+
+///
+git clone url
+git pull (before every push)
