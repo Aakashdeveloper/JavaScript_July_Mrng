@@ -110,3 +110,72 @@ var c = [4,5,6]
 undefined
 a.concat(b,c)
 (9) ["a", "b", "c", 1, 2, 3, 4, 5, 6]
+
+var city = ["Delhi", "Mumbai", "Paris", "Nice", "Innsburg", "Helsinki"]
+city.sort()
+(6) ["Delhi", "Helsinki", "Innsburg", "Mumbai", "Nice", "Paris"]
+city
+(6) ["Delhi", "Helsinki", "Innsburg", "Mumbai", "Nice", "Paris"]
+var city = ["Delhi", "Mumbai", "Paris", "Nice", "Innsburg", "Helsinki"]
+undefined
+city.reverse()
+(6) ["Helsinki", "Innsburg", "Nice", "Paris", "Mumbai", "Delhi"]
+city.reverse().sort()
+(6) ["Delhi", "Helsinki", "Innsburg", "Mumbai", "Nice", "Paris"]
+city.reverse().sort()
+(6) ["Delhi", "Helsinki", "Innsburg", "Mumbai", "Nice", "Paris"]
+var city = ["Delhi", "Mumbai", "Paris", "Nice", "Innsburg", "Helsinki"]
+undefined
+city.reverse().sort()
+(6) ["Delhi", "Helsinki", "Innsburg", "Mumbai", "Nice", "Paris"]
+city.sort().reverse()
+(6) ["Paris", "Nice", "Mumbai", "Innsburg", "Helsinki", "Delhi"]
+
+var a = [10,20,30,40]
+undefined
+a.fill(100,3)
+(4) [10, 20, 30, 100]
+var a = [10,20,30,40]
+undefined
+a.fill(100,2)
+(4) [10, 20, 100, 100]
+var a = [10,20,30,40]
+undefined
+a.fill(100,1,2)
+(4) [10, 100, 30, 40]
+
+
+var color=["Red","yellow",['a','b',[1,2,3,['x','y'],'z'],4,'c'],'black','Brown']
+undefined
+color[1]
+"yellow"
+color[2]
+(5) ["a", "b", Array(5), 4, "c"]
+color[2][0]
+"a"
+color[2][2]
+(5) [1, 2, 3, Array(2), "z"]
+color[2][2][1]
+2
+color[2][2][3]
+(2) ["x", "y"]
+color[2][2][3][1]
+"y"
+
+
+var color=["Red","yellow",['a','b',[1,2,3,['x','y'],'z'],4,'c'],'black','Brown']
+color.flat()
+(9) ["Red", "yellow", "a", "b", Array(5), 4, "c", "black", "Brown"]
+color.flat(2)
+(13) ["Red", "yellow", "a", "b", 1, 2, 3, Array(2), "z", 4, "c", "black", "Brown"]
+color.flat(3)
+(14) ["Red", "yellow", "a", "b", 1, 2, 3, "x", "y", "z", 4, "c", "black", "Brown"]
+
+var a  = 10
+undefined
+var b = [10]
+undefined
+Array.isArray(a)
+false
+Array.isArray(b)
+true
