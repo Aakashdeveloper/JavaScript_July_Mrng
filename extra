@@ -21,14 +21,15 @@ https://github.com/
     > let, const
     > maps,filter
 > Clousers
-////////////////////////////////////////
 > Hoisting
+> JSON
+////////////////////////////////////////
+> object 
 > Transpile
 > this 
 > Es6
     > classes
     > import export
-> object 
 > Prototypes
 > Call/Apply
 > package.JSON
@@ -42,7 +43,6 @@ https://github.com/
 > promis
 > async await
 > Progress bar
-> JSON
 > palindrome
 > fabonicci
 > factorial
