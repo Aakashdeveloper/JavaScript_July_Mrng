@@ -23,17 +23,17 @@ https://github.com/
 > Clousers
 > Hoisting
 > JSON
-////////////////////////////////////////
-> object 
-> Transpile
 > this 
+> object 
+////////////////////////////////////////
+> Transpile
 > Es6
     > classes
     > import export
 > Prototypes
-> Call/Apply
 > package.JSON
 > npm
+> Call/Apply
 > DoM
 > Geolocation
 > Form validation
