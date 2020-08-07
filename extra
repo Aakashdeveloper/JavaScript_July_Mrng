@@ -25,7 +25,6 @@ https://github.com/
 > JSON
 > this 
 > object 
-////////////////////////////////////////
 > Transpile
 > Es6
     > classes
@@ -33,12 +32,13 @@ https://github.com/
 > Prototypes
 > package.JSON
 > npm
+////////////////////////////////////////
 > Call/Apply
 > DoM
+> Calc
 > Geolocation
 > Form validation
 > Event
-> Calc
 > currenyConvertor
 > promis
 > async await
@@ -75,3 +75,28 @@ git checkout -b
 ///
 git clone url
 git pull (before every push)
+
+
+>>>>>>>>
+package.JSON
+<<<<<<<
+metadata
+scripts
+description
+package
+
+>>>>>Step to create package.json<<<<<<
+**NodeJs must be installed
+> Go inside the folder using cmd
+> npm init -y
+
+babel
+
+
+>>>>>step to install package<<<<
+**NodeJs must be installed
+> Go inside the folder using cmd
+> npm i package name/npm install package name
+
+
+npm i @babel/core @babel/preset-env @babel/register

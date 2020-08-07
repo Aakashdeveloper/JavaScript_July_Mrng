@@ -1,3 +1,5 @@
+import React from 'react';
+
 var dbObj = {}
 
 dbObj.users = [
@@ -16,4 +18,5 @@ dbObj.dbquery = {
     insert:(table,data) => { return `insert into ${table} name,city VALUES (${data.name},${data.city})`}
 }
 
-module.exports = dbObj;
+//module.exports = dbObj;
+export default dbObj;
