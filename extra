@@ -32,21 +32,22 @@ https://github.com/
 > Prototypes
 > package.JSON
 > npm
-////////////////////////////////////////
-> Call/Apply
 > DoM
 > Calc
 > Geolocation
+////////////////////////////////////////
+> Call/Apply
+
 > Form validation
 > Event
 > currenyConvertor
 > promis
 > async await
+> screen
 > Progress bar
 > palindrome
 > fabonicci
 > factorial
-> screen
 > Dynamic DropDown
 > Weather application
 > ajax

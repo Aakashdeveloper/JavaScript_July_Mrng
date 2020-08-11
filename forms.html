@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <script>
+            const validate = () => {
+                var name = document.getElementById('fname').value;
+                if(name==' '||name==''){
+                    document.getElementById('out').innerText="Please enter first name"
+                }else{
+                    document.getElementById('out').innerText=""
+                }
+
+            }
+        </script>
+
+    </head>
+    <body>
+        <form>
+            <div>
+                <label>FirstName</label>
+                <input type="text" id="fname"
+                onblur="validate()"/>
+            </div>
+            <div>
+                <label>LastName</label>
+                <input type="text" id="lname"/>
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="text" id="pwd"/>
+            </div>
+            <div>
+                <label>Confirm Pasword</label>
+                <input type="text" id="cpwd"/>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="text" id="email"/>
+            </div>
+            <p style="color:red" id="out"></p>
+        </form>
+    </body>
+</html>
