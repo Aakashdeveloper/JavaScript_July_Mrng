@@ -8,6 +8,37 @@
                 }else{
                     document.getElementById('out').innerText=""
                 }
+            }
+
+            const validatepass = () => {
+                var pass = document.getElementById('pwd').value;
+                if(pass.length<8){
+                    document.getElementById('out').innerText="Min length is 8"
+                }else{
+                    document.getElementById('out').innerText=""
+                }
+
+            }
+            const validatecpass = () => {
+                var pass = document.getElementById('pwd').value;
+                var cpass = document.getElementById('cpwd').value;
+                if(pass !== cpass ){
+                    document.getElementById('out').innerText="Password does not match"
+                }else{
+                    document.getElementById('out').innerText=""
+                }
+
+            }
+            const validateEmail = () => {
+                var email = document.getElementById('email').value;
+                if(email==' '||email=='' ){
+                    document.getElementById('out').innerText="Please enter email"
+                }else{
+                    if(email.match("^([a-zA-Z0-9]+)@([a-zA-Z0-9]+)\.([a-zA-Z]{2,5})$")==null){
+                    
+                    }
+                    document.getElementById('out').innerText=""
+                }
 
             }
         </script>
@@ -26,11 +57,13 @@
             </div>
             <div>
                 <label>Password</label>
-                <input type="text" id="pwd"/>
+                <input type="text" id="pwd"
+                oninput="validatepass()"/>
             </div>
             <div>
                 <label>Confirm Pasword</label>
-                <input type="text" id="cpwd"/>
+                <input type="text" id="cpwd"
+                oninput="validatecpass()"/>
             </div>
             <div>
                 <label>Email</label>
